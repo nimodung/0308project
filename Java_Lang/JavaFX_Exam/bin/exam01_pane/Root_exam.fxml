@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="exam01_pane.RootExamContoller">
+   <children>
+      <HBox>
+         <children>
+            <Button id="btn_ty" fx:id="btn_ty" mnemonicParsing="false" prefWidth="90.0" text="태연" />
+            <Button id="btn_sola" fx:id="btn_sola" mnemonicParsing="false" prefWidth="90.0" text="솔라" />
+            <Button id="btn_iu" fx:id="btn_iu" mnemonicParsing="false" prefWidth="90.0" text="아이유" />
+            <Button id="btn_irin" fx:id="btn_irin" mnemonicParsing="false" prefWidth="90.0" text="아이린" />
+         </children>
+      </HBox>
+      <StackPane prefHeight="500.0">
+         <children>
+            <ImageView id="imgview_irin" fx:id="imgview_irin" fitHeight="500.0" fitWidth="216.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../../../../Android/project/image/irin.PNG" />
+               </image>
+            </ImageView>
+            <ImageView id="imgview_iu" fx:id="imgview_iu" fitHeight="281.0" fitWidth="189.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../../../../Android/project/image/iu.png" />
+               </image>
+            </ImageView>
+            <ImageView id="imgimage_sola" fx:id="imgview_sola" fitHeight="282.0" fitWidth="178.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../../../../Android/project/image/sola.png" />
+               </image>
+            </ImageView>
+            <ImageView id="imgview_ty" fx:id="imgview_ty" fitHeight="276.0" fitWidth="218.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Android/project/image/teayoen.png" />
+               </image>
+            </ImageView>
+         </children>
+      </StackPane>
+   </children>
+</VBox>

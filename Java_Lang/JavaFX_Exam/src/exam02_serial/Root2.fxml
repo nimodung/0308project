@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox prefHeight="100.0" prefWidth="300.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="exam02_serial.RootController">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="btn_led_on" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="led on" />
+            <Button fx:id="btn_led_off" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="led off" />
+            <Button fx:id="btn_led_toggle" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="led toggle" />
+         </children>
+      </HBox>
+   </children>
+</VBox>

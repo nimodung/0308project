@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="exam01_pane.RootCalContoller">
+   <children>
+      <Label id="resultlable" fx:id="resultlabel" alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="450.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </VBox.margin>
+      </Label>
+      <HBox prefHeight="100.0" prefWidth="400.0">
+         <children>
+            <ImageView id="img7" fx:id="img7" fitHeight="100.0" fitWidth="100.0" onMouseClicked="#handleNumberBtnAction" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Android/project/image/cal/seven.png" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView id="img8" fx:id="img8" fitHeight="100.0" fitWidth="100.0" onMouseClicked="#handleNumberBtnAction" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Android/project/image/cal/eight.png" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView id="img9" fx:id="img9" fitHeight="100.0" fitWidth="100.0" onMouseClicked="#handleNumberBtnAction" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Android/project/image/cal/nine.png" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView id="img_add" fx:id="img_add" fitHeight="100.0" fitWidth="100.0" onMouseClicked="#handleOpcodeBtnAction" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Android/project/image/cal/plus.png" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+         </children>
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="400.0">
+         <children>
+            <ImageView id="img4" fx:id="img4" fitHeight="100.0" fitWidth="100.0" onMouseClicked="#handleNumberBtnAction" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Android/project/image/cal/four.png" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView id="img5" fx:id="img5" fitHeight="100.0" fitWidth="100.0" onMouseClicked="#handleNumberBtnAction" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Android/project/image/cal/five.png" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView id="img6" fx:id="img6" fitHeight="100.0" fitWidth="100.0" onMouseClicked="#handleNumberBtnAction" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Android/project/image/cal/six.png" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView id="img_sub" fx:id="img_sub" fitHeight="100.0" fitWidth="100.0" onMouseClicked="#handleOpcodeBtnAction" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Android/project/image/cal/ninus.png" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+         </children>
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="400.0">
+         <children>
+            <ImageView id="img1" fx:id="img1" fitHeight="100.0" fitWidth="100.0" onMouseClicked="#handleNumberBtnAction" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Android/project/image/cal/one.png" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView id="img2" fx:id="img2" fitHeight="100.0" fitWidth="100.0" onMouseClicked="#handleNumberBtnAction" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Android/project/image/cal/two.png" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView id="img3" fx:id="img3" fitHeight="100.0" fitWidth="100.0" onMouseClicked="#handleNumberBtnAction" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Android/project/image/cal/three.png" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView id="img_mul" fx:id="img_mul" fitHeight="100.0" fitWidth="100.0" onMouseClicked="#handleOpcodeBtnAction" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Android/project/image/cal/multi.png" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+         </children>
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="400.0">
+         <children>
+            <ImageView id="img_clear" fx:id="img_clear" fitHeight="100.0" fitWidth="100.0" onMouseClicked="#handleOpcodeBtnAction" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Android/project/image/cal/clear.png" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView id="img0" fx:id="img0" fitHeight="100.0" fitWidth="100.0" onMouseClicked="#handleNumberBtnAction" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Android/project/image/cal/zero.png" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView id="img_equal" fx:id="img_equal" fitHeight="100.0" fitWidth="100.0" onMouseClicked="#handleOpcodeBtnAction" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Android/project/image/cal/equal.png" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin></ImageView>
+            <ImageView id="img_div" fx:id="img_div" fitHeight="100.0" fitWidth="100.0" onMouseClicked="#handleOpcodeBtnAction" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Android/project/image/cal/div.png" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+         </children>
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </HBox>
+   </children>
+</VBox>

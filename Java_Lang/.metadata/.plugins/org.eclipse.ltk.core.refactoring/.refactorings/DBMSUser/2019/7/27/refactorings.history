@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Login.fxml&apos; to &apos;DBMSUser/src/application&apos;&#x0D;&#x0A;- Original project: &apos;DBMSUser&apos;&#x0D;&#x0A;- Destination element: &apos;DBMSUser/src/application&apos;&#x0D;&#x0A;- Original element: &apos;Login.fxml&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="/src&lt;application" element1="src/Login.fxml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1562115108710" units="0" version="1.0"/>
+</session>
