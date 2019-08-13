@@ -2,8 +2,8 @@
  * Dot_matrix.h
  *
  * Created: 2019-04-09 오후 5:07:43
- *  Author: hee ram
- */ 
+ *  Author: Kim Hee Ram
+ */
 
 
 #ifndef DOT_MATRIX_H_
