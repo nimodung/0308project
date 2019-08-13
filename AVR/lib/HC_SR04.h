@@ -2,7 +2,7 @@
  * HC_SR04.h
  *
  * Created: 2019-04-22 오후 2:52:55
- *  Author: user
+ *  Author: Kim Hee Ram
  */ 
 
 
