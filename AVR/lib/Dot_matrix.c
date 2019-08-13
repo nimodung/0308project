@@ -2,7 +2,7 @@
  * Dot_matrix.c
  *
  * Created: 2019-04-08 오전 10:50:17
- *  Author: hee ram
+ *  Author: Kim Hee Ram
  */ 
 #include <avr/io.h>
 #define F_CPU 16000000UL
