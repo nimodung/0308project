@@ -2,7 +2,7 @@
  * Speaker.h
  *
  * Created: 2019-05-21 오후 4:07:07
- *  Author: tjoeun
+ *  Author: Kim Hee Ram
  */ 
 
 
