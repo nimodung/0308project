@@ -2,7 +2,7 @@
  * FND4digit.c
  *
  * Created: 2019-04-04 오후 4:01:50
- *  Author: user
+ *  Author: Kim Hee Ram
  */ 
 
 #include <avr/io.h>
